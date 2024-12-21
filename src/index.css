@@ -24,9 +24,27 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin: 1rem;
 }
 
 .cat-info {
   background: #f8f9fa;
   border-radius: 4px;
+}
+
+.team-card {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.team-card p {
+  margin: 0;
+  color: #555;
 }
